@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "JMH Laudanum EG";
+
+}
+
+
+body {
+    background-image: url(backgroundimage.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+header {
+    background-color: #340f0f;
+    padding: 15px;
+    color: white;
+    position: fixed;
+    top: 0px;
+    left: 0PX;
+    width: 100%;
+    text-align: center;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* TODO -SEAN- Please format the div for font styles*/
+div {
+    background-color: #373737;
+    margin: 10%;
+    padding: 3%;
+}
+
+/* TODO -VANESSA- Don't forget to add CSS for hover
+    - Install fontawesome package for social media icons in header
+
+*/
+
+/* TODO -SEAN- Please format the headings; renumber if you need more heading styles plz renumber h4 for captions and subtext as last heading tag */
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+/* image captions and subtext use h4 */
+
+h4 {}
+
+/* TODO - VANESSA - Online Order Button: Will link to HTML later; DONT FORGET! */
+button {
+    background-color: #c15c5c;
+    padding: 15px;
+    color: white;
+    border: 0;
+    font-size: 20pt;
+}
+
+
+#onlineorder {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 50%;
+}
+
+/* Developers: Vanessa Cuevas and Sean Smith
+    Contact: 
+        Vanessa https://www.linkedin.com/in/vanessancuevas/
+        Sean 
+    Publish Date: December 2020 */
