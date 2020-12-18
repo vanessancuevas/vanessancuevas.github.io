@@ -1,0 +1,162 @@
+/* === Typography === */
+
+body {
+    font-family: ‘Helvetica’, ‘Arial’, sans-serif;
+    font-size: 14pt;
+    line-height: 18pt;
+    color: #000000;
+}
+
+nav a {
+    font-family: ‘Helvetica’, ‘Arial’, sans-serif;
+    font-size: 18pt;
+    line-height: 18pt;
+    color: #cdcdcd;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 72pt;
+    line-height: 18pt;
+    color: #000000;
+}
+
+h2 {
+    font-family: ‘Helvetica Bold’, ‘Arial Bold’, sans-serif;
+    font-size: 24pt;
+    line-height: 18pt;
+    color: #000000;
+}
+
+footer {
+    font-family: ‘Helvetica Oblique’, ‘Arial Oblique’, sans-serif;
+    font-size: 10pt;
+    line-height: 18pt;
+    color: #ffffff;
+}
+
+/* === Backgrounds === */
+
+header {
+    background-color: #000000;
+
+}
+
+main {
+    background-color: #cdcdcd;
+}
+
+body {
+    background-color: #cdcdcd;
+}
+
+footer {
+    background-color: #000000;
+}
+
+#splash {
+    background-image: url(heading.jpg);
+    background-size: cover;
+
+}
+
+/* === Box Model === */
+
+#splash {
+    height: 400px;
+}
+
+nav {
+    padding: 25px;
+
+
+}
+
+a {
+    margin-left: 20px;
+
+}
+
+footer {
+    padding: 10px;
+}
+
+#foodarticles {
+    padding: 10px;
+}
+
+article {
+    margin-bottom: 50px;
+}
+
+/* ===Layout === */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+
+}
+
+body {
+    padding-top: 125px;
+}
+
+
+.floatleft {
+    float: left;
+    margin-right: 30pt;
+    margin-bottom: 30pt;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    margin: auto;
+
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+#splash {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+aside {
+    margin-left: 35px;
+}
+
+
+
+
+footer {
+    width: 100%;
+    text-align: center;
+    font-family: ‘Helvetica’, ‘Arial Bold’, sans-serif;
+    font-size: 10px;
+}
+
+#bookad {
+    background-color: #ff0000;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    height: 150px;
+    width: 400px;
+    padding: 30px;
+}
+
+/* ===Flexbox=== */
+#splash {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
