@@ -60,9 +60,21 @@ a:hover {
   
 }
 
+.content-left-tiny {
+grid-column: 4 / 7;
+
+}
+
+.content-right-tiny {
+
+    grid-column: 8 / 11;
+}
+
 .center {
     text-align: center;
 }
+
+
 
 .footer {
 
