@@ -2,7 +2,7 @@
     /* height: 100%; */
     display: grid;
     grid-template-columns: repeat(12, 1fr); 
-    grid-template-rows: repeat(auto);
+    grid-template-rows: 10% 75vh auto;
     grid-gap: 0px;
 }
 
@@ -11,7 +11,7 @@ a  {
    
 text-decoration: none;
 color: #031752;
-font-weight: 700; 
+font-weight: 300; 
 transition: all 0.5s;
 
 }
@@ -20,7 +20,8 @@ a:hover {
     font-family: 'Playfair Display', serif;
    
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
 }
 
 .header {
@@ -73,6 +74,9 @@ grid-column: 4 / 7;
     text-align: center;
 }
 
+.fitPage {
+max-height: 100vh;
+}
 .img-persona {
     float: right;
     max-width: 100px;
