@@ -44,30 +44,29 @@ a:hover {
     padding-bottom: 10%;
 }
 .content-right {
-    grid-column: 7 / 11;
+    grid-column: 7 / 10;
     
 }
 
 .content-left {
-    grid-column: 4 / 9;
+    grid-column: 5 / 9;
     
 }
 
 .content {
-    grid-column: 4 / 11;
-    padding-left: 5%;
-    padding-right: 5%;
+    grid-column: 5 / 11;
+   
   
 }
 
 .content-left-tiny {
-grid-column: 4 / 7;
+grid-column: 5 / 7;
 
 }
 
 .content-right-tiny {
 
-    grid-column: 9 / 11;
+    grid-column: 9 / 10;
 }
 
 .center {
@@ -109,12 +108,11 @@ h1 {
 
 h2 {
     font-family: 'Playfair Display', serif;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 3rem;
     color: #031752;
     line-height: 3rem;
-    padding-right: 10%;
-    padding-left: 10%;
+    
     
 }
 
