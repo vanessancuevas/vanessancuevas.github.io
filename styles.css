@@ -2,32 +2,33 @@
 
     display: grid;
     grid-template-columns: repeat(12, 1fr); 
-    grid-template-rows: 1.5fr 50vh 1fr;
+    grid-template-rows: 1.5fr auto 1fr;
     grid-gap: 0px;
 }
 a  {
-    font-family: 'Playfair Display', serif;
-   
+    
+    font-weight: 700;
 text-decoration: none;
 color: #031752;
-font-weight: 500;
+ 
 transition: all 0.5s;
 
 }
 
 a:hover {
-    font-family: 'Playfair Display', serif;
+   
+   
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
-
 .header {
     grid-column: 2 / -1;
-    font-size: 1.7rem; 
-    font-weight: 900;
+    font-size: 1.5rem; 
     padding-top: 2%;
-    
+    font-family: 'Playfair Display', serif;
+    color: #031752;
 }
+
 
 .menu {
  grid-column: 2 / 4;
@@ -90,3 +91,45 @@ h3 {
     color: #000000;
     font-size: 2rem;
 }
+i {
+    color: #031752;
+}
+
+@media screen and (orientation: portrait) {
+
+    body 
+    {
+        font-size: 2rem;
+        line-height: 1rem;
+    }
+    p {
+        font-size: .6rem;
+    
+    }
+
+    .avatar{
+        grid-column: 2 / 6;
+        max-height: 50%;
+        max-height: auto;
+
+    }
+    .content {
+        grid-column: 6 / 11;
+        
+    }
+
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: 600;
+        font-size: 2.5rem;
+        color: #031752;
+        line-height: 3rem;
+    }
+    p a {
+        font-size: 1.5rem;
+        
+    }
+   
+}
+
+
