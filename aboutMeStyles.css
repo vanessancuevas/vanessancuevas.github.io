@@ -25,6 +25,18 @@ a:hover {
     font-size: 1.7rem;
 }
 
+.image {
+    width: 100%;
+    overflow: hidden;
+    }
+    .image-colorize img {
+    transition: transform .5s, filter 0.5s ease-in-out;
+    filter: grayscale(100%);
+    }
+    .image-colorize:hover img {
+    filter: grayscale(0);
+    transform: scale(1.1);
+    }
 .header {
     grid-column: 2 / -1;
     font-size: 1.5rem; 
@@ -156,18 +168,6 @@ img {
     max-width: auto;
 }
 
-.image {
-    width: 100%;
-    overflow: hidden;
-    }
-    .image-colorize img {
-    transition: transform .5s, filter 0.5s ease-in-out;
-    filter: grayscale(100%);
-    }
-    .image-colorize:hover img {
-    filter: grayscale(0);
-    transform: scale(1.1);
-    }
 
 i {
     color: #031752;
