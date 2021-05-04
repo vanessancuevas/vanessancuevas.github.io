@@ -1,3 +1,5 @@
+
+
 .container {
     /* height: 100%; */
     display: grid;
@@ -8,7 +10,7 @@
 
 a  {
     font-family:  'Maven Pro', sans-serif;
-   
+  
 text-decoration: none;
 color: #2A2A2C;
  
@@ -30,9 +32,12 @@ a:hover {
     padding-top: 2%;
     font-family: 'Playfair Display', serif;
     color: #031752;
+    position: -webkit-sticky;
+position: sticky;
+top: 20px;
 }
 
-.menu {
+nav {
  grid-column: 3 / 5;
  grid-row: 2 / 3;
 font-size: 1.2rem;
@@ -46,7 +51,7 @@ font-size: 1.2rem;
     padding-bottom: 10%;
 }
 .content-right {
-    grid-column: 7 / 10;
+    grid-column: 7 / 11;
     
 }
 
@@ -56,7 +61,7 @@ font-size: 1.2rem;
 }
 
 .content {
-    grid-column: 5 / 10;
+    grid-column: 5 / 11;
    
   
 }
@@ -68,7 +73,7 @@ grid-column: 5 / 7;
 
 .content-right-tiny {
 
-    grid-column: 8 / 10;
+    grid-column: 8 / 11;
 }
 
 .center {
@@ -83,7 +88,7 @@ grid-column: 5 / 7;
 
 .footer {
 
-grid-column: 8 / 10;
+grid-column: 6 / 11;
 text-align: right;
 color: #031752;
 
@@ -114,10 +119,11 @@ h1 {
 h2 {
     font-family: 'Playfair Display', serif;
     font-weight: 300;
-    font-size: 3rem;
+    font-size: 2.6rem;
     color: #031752;
     line-height: 3rem;
     text-align: center;
+    padding-left: 5%;
     
 }
 
@@ -141,13 +147,27 @@ h4 {
 }
 img {
     max-height: auto;
-    max-width: 80%;
+    max-width: 100%;
+  
 }
 
 .food-img {
     max-height: 100%;
     max-width: auto;
 }
+
+.image {
+    width: 100%;
+    overflow: hidden;
+    }
+    .image-colorize img {
+    transition: transform .5s, filter 0.5s ease-in-out;
+    filter: grayscale(100%);
+    }
+    .image-colorize:hover img {
+    filter: grayscale(0);
+    transform: scale(1.1);
+    }
 
 i {
     color: #031752;
