@@ -44,8 +44,7 @@ a:hover {
     padding-top: 2%;
     font-family: 'Playfair Display', serif;
     color: #031752;
-    position: -webkit-sticky;
-position: sticky;
+    
 top: 20px;
 }
 
@@ -63,7 +62,7 @@ font-size: 1.2rem;
     padding-bottom: 10%;
 }
 .content-right {
-    grid-column: 7 / 11;
+    grid-column: 6 / 11;
     
 }
 
@@ -79,7 +78,7 @@ font-size: 1.2rem;
 }
 
 .content-left-tiny {
-grid-column: 5 / 7;
+grid-column: 3 / 6;
 
 }
 
@@ -130,11 +129,10 @@ h1 {
 
 h2 {
     font-family: 'Playfair Display', serif;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 2.6rem;
     color: #031752;
     line-height: 3rem;
-    text-align: center;
     padding-left: 5%;
     
 }
